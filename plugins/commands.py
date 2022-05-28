@@ -44,10 +44,9 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('🤖 Creators', url='https://t.me/Ak_Bot_SupportGroup'),
+            InlineKeyboardButton('🤖 Creators', url='http://t.me/AladdinOwnerbot'),
             InlineKeyboardButton('😊 About', callback_data='about')
             ],[
-            InlineKeyboardButton('😎 YOUTUBE', url='https://youtube.com/c/MADpsychoYT'),
             InlineKeyboardButton('ℹ️ Help', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -87,10 +86,9 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/CC_autobot?startgroup=true')
             ],[
-            InlineKeyboardButton('🤖 Creators', url='https://t.me/Ak_Bot_SupportGroup'),
+            InlineKeyboardButton('🤖 Creators', url='http://t.me/AladdinOwnerbot'),
             InlineKeyboardButton('😊 About', callback_data='about')
             ],[
-            InlineKeyboardButton('😎 YOUTUBE', url='https://youtube.com/c/MADpsychoYT'),
             InlineKeyboardButton('ℹ️ Help', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
